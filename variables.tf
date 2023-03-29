@@ -4,11 +4,19 @@ variable "project" {
 
 variable "environment" {
   description = "The deployment environment"
-  default     = "production"
+  default     = "test"
 }
 
 variable "region" {
   description = "The AWS Region"
+}
+
+variable "access_key" {
+  description = "The Access Key"
+}
+
+variable "secret_key" {
+  description = "The Secret Key"
 }
 
 variable "availability_zones" {
