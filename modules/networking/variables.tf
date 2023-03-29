@@ -10,6 +10,14 @@ variable "region" {
   description = "The AWS Region"
 }
 
+variable "access_key" {
+  description = "The Access Key"
+}
+
+variable "secret_key" {
+  description = "The Secret Key"
+}
+
 variable "availability_zones" {
   type        = list(any)
   description = "The names of the availability zones to use"
